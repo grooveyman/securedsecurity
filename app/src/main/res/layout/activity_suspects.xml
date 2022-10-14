@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".suspectsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <ImageButton
+            android:id="@+id/addImgOfSuspect"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="200dp"
+            android:src="@drawable/add_image"
+            android:background="@drawable/outline"
+            android:contentDescription="@string/addimage" />
+
+        <EditText
+            android:id="@+id/nameOfSuspect"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline"
+            android:paddingLeft="10dp"
+            android:hint="@string/nameOfSuspect"
+            android:autofillHints="@string/setup_username"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/programOfSuspect"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline"
+            android:paddingLeft="10dp"
+            android:hint="@string/programmeOfSuspect"
+            android:autofillHints="@string/setup_username"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry" />
+
+        <Spinner
+            android:id="@+id/sus_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/outline"
+            />
+
+        <me.grantland.widget.AutofitLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/detailsOfSuspect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="24dp"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeMinTextSize="56dp"
+                android:hint="@string/details_of_suspect"
+                android:ems="5"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:minLines="4"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.606"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tittle"
+                android:autofillHints="" />
+
+
+        </me.grantland.widget.AutofitLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/setApbBtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/set_apb"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

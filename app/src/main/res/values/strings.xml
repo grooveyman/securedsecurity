@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">APB Security</string>
+    <string name="action_settings">Logout</string>
+    <string name="prompt_email">Email</string>
+    <string name="title_login">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="setup_username">Username</string>
+    <string name="setup_fullname">Fullname</string>
+    <string name="setup_idnumber">ID Number</string>
+    <string name="setup_password">Password</string>
+    <string name="setup_alertPhrase">Enter Alert Phrase</string>
+    <string name="broadcast_intro_text">Send a broadcast message to all APB users to keep them updated with tips, threat or dangerous tips to help save a life.</string>
+
+    <string name="sign_up_message">Your first Time?Sign Up Here</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- register text -->
+    <string name="registerSetup">Setup Application</string>
+    <string name="registerContinue">Setup Application</string>
+    <string name="registerFinish">Finish</string>
+    <string name="next">Next ></string>
+    <string name="already_account">Already have an account?Login Here</string>
+
+    <!-- end of register text -->
+
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_of_suspect">Name of Suspect</string>
+    <string name="addimage">Add Image of Suspect</string>
+    <string name="details_of_suspect">Details of Suspect</string>
+    <string name="set_apb">SEt apb</string>
+    <string name="programme_of_suspect">Programme of Suspect</string>
+    <string name="nameOfSuspect">Name</string>
+    <string name="programmeOfSuspect">Programme  - Year</string>
+
+    <string name="setup_password_confirm">Confirm Password</string>
+    <string name="secrete_key">Secrete Key</string>
+</resources>
